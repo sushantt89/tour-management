@@ -23,6 +23,7 @@ const Header = () => {
     <header className="header">
       <Container>
         <Row>
+        
           <div className="nav_wrapper d-flex aligh-items-center justify-content-between">
             {/* ============== logo start ============= */}
             <div className="logo">

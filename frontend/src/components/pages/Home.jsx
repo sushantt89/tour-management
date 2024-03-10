@@ -7,6 +7,7 @@ import heroVideo from "../../assets/images/hero-video.mp4";
 import worldImg from "../../assets/images/world.png";
 import Subtitle from "../../shared/Subtitle";
 import SearchBar from "../../shared/SearchBar";
+import ServiceList from "../../services/ServiceList";
 const Home = () => {
   return (
     <>
@@ -48,11 +49,27 @@ const Home = () => {
                 <img src={heroImg02} alt="heroImg02" />
               </div>
             </Col>
-            <SearchBar/>
+            <SearchBar />
           </Row>
         </Container>
       </section>
       {/* ============== hero section end ============= */}
+      <section>
+        <Container>
+          <Row>
+            <div>
+            {/* <Col lg='3'> */}
+            <h5 className="services_subtitle">What we serve</h5>
+            <h2 className="services_title">
+              Transform Your Travel Dreams into Reality with Our Personalized
+              Tours"
+            </h2>
+            {/* </Col> */}
+            </div>
+            <ServiceList />
+          </Row>
+        </Container>
+      </section>
     </>
   );
 };

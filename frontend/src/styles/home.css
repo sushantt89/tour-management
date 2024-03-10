@@ -1,5 +1,5 @@
 .hero_subtitle img {
-  width: 2.3rem;
+  width: 3.0rem;
 }
 .hero_content h1 {
   font-size: 3.2rem;
@@ -30,4 +30,15 @@
 }
 .hero_img-box{
     padding-top: 2rem;
+}
+.services_subtitle{
+  margin-top: 2.5rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #ee6e6e;
+  font-family: var(--subtitle-font-name);
+}
+.services_title{
+  font-size: 1.5rem;
+  font-weight: 500;
 }

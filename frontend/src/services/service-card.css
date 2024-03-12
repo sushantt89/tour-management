@@ -23,3 +23,11 @@
 .service_img img{
     width: 100%;
 }
+.service_item h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.service_item p{
+    font-size: .9rem;
+    color:var(--text-color);
+}

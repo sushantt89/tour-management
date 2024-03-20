@@ -16,10 +16,7 @@ const tours = [
     maxGroupSize: 10,
     desc: "this is the description",
     reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
+     
     ],
     avgRating: 4.5,
     photo: tourImg01,
@@ -37,6 +34,10 @@ const tours = [
       {
         name: "jhon doe",
         rating: 4.6,
+      },
+      {
+        name: "jhon mkoe",
+        rating: 4.0,
       },
     ],
     avgRating: 4.5,

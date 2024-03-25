@@ -54,6 +54,7 @@ const Booking = ({ tour, avgRating }) => {
               required
               onChange={handleChange}
             />
+            
           </FormGroup>
         </Form>
       </div>

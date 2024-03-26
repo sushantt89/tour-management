@@ -6,6 +6,7 @@ import TourDetails from '../components/pages/TourDetails';
 import Login from '../components/pages/Login';
 import Register from '../components/pages/Register';
 import SearchResultList from '../components/pages/SearchResultList';
+import ThankYou from "../components/pages/ThankYou";
 const Routers = () => {
   return (
     <Routes>
@@ -15,6 +16,7 @@ const Routers = () => {
       <Route exact path="/tours/:id" element={<TourDetails/>} />
       <Route exact path="/login" element={<Login/>} />
       <Route exact path="/register" element={<Register/>} />
+      <Route exact path="/thank-you" element={<ThankYou/>} />
       <Route exact path="/tours/search" element={<SearchResultList/>} />
     </Routes>
   );
